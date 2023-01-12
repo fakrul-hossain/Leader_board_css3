@@ -25,6 +25,49 @@ main{
 hr{
     border: 1px solid #D1D1D1;
 }
+/* header css start */
+header{
+    background-color: #562EFF;
+}
+nav{
+    max-width: 870px;
+    padding: 25px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo_title{
+    font-size: 24px;
+}
+nav img{
+    width: 51px;
+    height: 51px;
+}
+ul{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+ul li{
+    font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+/* header css end */
 /* top player css start */
 .top_players{
     margin-bottom: 30px;
@@ -120,6 +163,9 @@ height: 117px;
     gap: 20px;
     align-items: center;
 }
+.ratting_rate{
+    color: #AEAEAE;
+}
 .fa-star{
     font-size: 12px;
 }
@@ -137,6 +183,9 @@ height: 117px;
     background-color: #FFE4E8;
     border-radius: 14.6913px;
     color: #FF4A60;
+}
+.course_duration span{
+    color: #AEAEAE;
 }
 .clock{
     margin-right: 5px;

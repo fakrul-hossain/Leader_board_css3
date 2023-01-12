@@ -18,17 +18,25 @@ main{
     width: 870px;
     padding: 30px 40px;
 }
+hr{
+    border: 1px solid #D1D1D1;
+}
 /* top player css start */
+.top_players{
+    margin-bottom: 30px;
+}
 .section_title{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 24px;
     color: #562EFF;
 }
 .players{
+    grid-row-gap: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .player{
+    /* margin: 20px 0; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -39,5 +47,23 @@ main{
 }
 .player_name{
     margin-left: 16px;
+    font-size: 18px;
+    color: #000000;
 }
+
 /* top player css end */
+/* top blogs css start */
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.blog_title{
+    font-size: 20px;
+    color: #000000;
+}
+.blog .thumbnall img{
+    width: 177px;
+height: 117px;
+}
+/* top blogs css end */

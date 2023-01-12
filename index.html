@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" 
     href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2? 
     family=Noto+Sans+Tangsa:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" 
     rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3212c52e0c.js" crossorigin="anonymous"></script>
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Leader Board</title>
 </head>
 <body>
     <!-- header start -->
@@ -22,6 +24,7 @@
     <!-- main section start -->
     <main>
         <section class="container">
+            <!-- top players start -->
             <div class="top_players">
                 <h2 class="section_title">Top Players</h2>
                 <div class="players">
@@ -51,12 +54,14 @@
                     </div>
                 </div>
             </div>
+            <!-- top players end -->
             <hr>
+            <!-- top blog start -->
             <div class="top_blogs">
                 <h2 class="section_title">Top Blogs</h2>
                 <div class="blogs">
                     <article class="blog">
-                        <div class="thumbnall">
+                        <div class="thumbnail">
                             <img src="./images/blogs/blog-1.png" alt="">
                         </div>
                         <div class="blog_info">
@@ -65,9 +70,120 @@
                                 <p class="blog_author">By <a href="#">Danny Sapio</a></p>
                         </div>
                     </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="./images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog_info">
+                            <h3 class="blog_title">UI cheat sheet: <br> 
+                                list vs grids</h3>
+                                <p class="blog_author">By <a href="#">By Tess Gadd</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="./images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog_info">
+                            <h3 class="blog_title">7 typography tips <br>
+                                for interface design</h3>
+                                <p class="blog_author">By <a href="#">By Jeremiah Lam</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="./images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog_info">
+                            <h3 class="blog_title">Your logo is <br>
+                                copied</h3>
+                                <p class="blog_author">By <a href="#">By Ferdinand Vogler</a></p>
+                        </div>
+                    </article>
                 </div>
             </div>
+            <!-- top blog end -->
         </section>
+        <!-- latest courses start -->
+        <section class="container">
+            <h2 class="section_title">Lates Course</h2>
+            <div class="courses">
+                <article class="course">
+                    <div class="course_banner">
+                        <img src="./images/courses/course-1.png" alt="">
+                    </div>
+                    <div class="course_details">
+                        <h3 class="course_title">React - The Complete </h3>
+                        <h3 class="course_title">Guide 2023 </h3>
+                        <p class="course_instructor">Reed Krakoff.</p>
+                    </div>
+                    <div class="course_info">
+                        <div class="ratting">
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                        </div>
+                        <p>4.5</p>
+                        <div class="course_duration">
+                            <i class="fa-regular fa-clock clock"></i>
+                            01:30 hr
+                        </div>
+                    </div>
+                </article>
+                <article class="course">
+                    <div class="course_banner">
+                        <img src="./images/courses/course-2.png" alt="">
+                    </div>
+                    <div class="course_details">
+                        <h3 class="course_title">React - The Complete </h3>
+                        <h3 class="course_title">Guide 2023 </h3>
+                        <p class="course_instructor">Walter Scott.</p>
+                    </div>
+                    <div class="course_info">
+                        <div class="ratting">
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                        </div>
+                        <p>4.3</p>
+                        <div class="course_duration">
+                            <i class="fa-regular fa-clock clock"></i>
+                            01:20 hr
+                        </div>
+                    </div>
+                </article>
+                <article class="course">
+                    <div class="course_banner">
+                        <img src="./images/courses/course-3.png" alt="">
+                    </div>
+                    <div class="course_details">
+                        <h3 class="course_title">React - The Complete </h3>
+                        <h3 class="course_title">Guide 2023 </h3>
+                        <p class="course_instructor">Reed Krakoff.</p>
+                    </div>
+                    <div class="course_info">
+                        <div class="ratting">
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star filled"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                        </div>
+                        <p>4.5</p>
+                        <div class="course_duration">
+                            <i class="fa-regular fa-clock clock"></i>
+                            01:30 hr
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+        <!-- latest courses end -->
     </main>
     <!-- main section end -->
     <!-- footer section start -->

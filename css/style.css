@@ -1,254 +1,255 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 /* reusable component */
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color:#f3f1ff;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f1ff;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
-.container{
-    background-color: #FFFFFF;
-    width: 870px;
-    padding: 30px 40px;
-    border-radius: 5px;
-    margin-top: 21px;
-    margin-bottom: 20px;
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 30px 40px;
+  border-radius: 5px;
+  margin-top: 21px;
+  margin-bottom: 20px;
 }
-hr{
-    border: 1px solid #D1D1D1;
+hr {
+  border: 1px solid #d1d1d1;
 }
 /* header css start */
-header{
-    background-color: #562EFF;
+header {
+  background-color: #562eff;
 }
-nav{
-    max-width: 870px;
-    padding: 25px 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    color: #FFFFFF;
+nav {
+  max-width: 870px;
+  padding: 25px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
 }
-.nav_logo{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
-.logo_title{
-    font-size: 24px;
+.logo_title {
+  font-size: 24px;
 }
-nav img{
-    width: 51px;
-    height: 51px;
+nav img {
+  width: 51px;
+  height: 51px;
 }
-ul{
-    display: flex;
-    gap: 36px;
-    align-items: center;
+ul {
+  display: flex;
+  gap: 36px;
+  align-items: center;
 }
-ul li{
-    font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
+ul li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
-    list-style-type: none;
+  color: #ffffff;
+  list-style-type: none;
 }
-ul li a{
-    text-decoration: none;
+ul li a {
+  text-decoration: none;
 }
 /* header css end */
 /* top player css start */
-.top_players{
-    margin-bottom: 30px;
+.top_players {
+  margin-bottom: 30px;
 }
-.section_title{
-    margin-bottom: 30px;
-    font-size: 24px;
-    color: #562EFF;
+.section_title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #562eff;
 }
-.players{
-    grid-row-gap: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.players {
+  grid-row-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.player{
-    /* margin: 20px 0; */
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
+.player {
+  /* margin: 20px 0; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
-.player img{
-    width: 56px;
-    height: 56px;
+.player img {
+  width: 56px;
+  height: 56px;
 }
-.player_name{
-    margin-left: 16px;
-    font-size: 18px;
-    color: #000000;
+.player_name {
+  margin-left: 16px;
+  font-size: 18px;
+  color: #000000;
 }
 
 /* top player css end */
 /* top blogs css start */
-.top_blogs{
-    padding: 30px 0;
+.top_blogs {
+  padding: 30px 0;
 }
-.blogs{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 26px;
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
 }
-.blog{
-    display: flex;
-    align-items: center;
-    gap: 16px;
+.blog {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
-.blog .thumbnail img{
-    width: 177px;
-height: 117px;
+.blog .thumbnail img {
+  width: 177px;
+  height: 117px;
 }
-.blog_title{
-    font-size: 20px;
-    color: #000000;
-    margin-bottom: 6px;
+.blog_title {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 6px;
 }
-.blog_author{
-    font-size: 16px;
-    color: #9F9F9F;
+.blog_author {
+  font-size: 16px;
+  color: #9f9f9f;
 }
-.blog_author a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #562EFF;
+.blog_author a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #562eff;
 }
 /* top blogs css end */
 /* latest courses start */
-.course_container{
-    /* margin-bottom: 50px; */
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
-.courses{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+.course {
+  padding: 14px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }
-.course{
-    padding: 14px ;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+.course_banner img {
+  width: 224px;
+  height: 104px;
 }
-.course_banner img{
-    width: 224px;
-    height: 104px;
+.course_title {
+  font-size: 20.0336px;
+  padding: 5px 0;
+  color: #1e1e1e;
 }
-.course_title{
-    font-size: 20.0336px;
-    padding: 5px 0;
-    color: #1E1E1E;
+.course_instructor {
+  font-size: 14.6913px;
+  margin-bottom: 15px;
+  color: #ed6b4f;
 }
-.course_instructor{
-    font-size: 14.6913px;
-    margin-bottom: 15px;
-    color: #ED6B4F;
+.course_info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
-.course_info{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.ratting_rate {
+  color: #aeaeae;
 }
-.ratting_rate{
-    color: #AEAEAE;
+.fa-star {
+  font-size: 12px;
 }
-.fa-star{
-    font-size: 12px;
+.fa-star.filled {
+  color: #ffc014;
 }
-.fa-star.filled{
-    color: #FFC014;
+.fa-star.empty {
+  color: #aeaeae;
+  opacity: 0.25;
 }
-.fa-star.empty{
-    color: #AEAEAE;
-    opacity: 0.25;
+.course_duration {
+  font-size: 14.6913px;
+  font-weight: 600;
+  padding: 8px;
+  background-color: #ffe4e8;
+  border-radius: 14.6913px;
+  color: #ff4a60;
 }
-.course_duration{
-    font-size: 14.6913px;
-    font-weight: 600;
-    padding: 8px;
-    background-color: #FFE4E8;
-    border-radius: 14.6913px;
-    color: #FF4A60;
+.course_duration span {
+  color: #aeaeae;
 }
-.course_duration span{
-    color: #AEAEAE;
-}
-.clock{
-    margin-right: 5px;
+.clock {
+  margin-right: 5px;
 }
 /* latest courses end */
 /* responsive start*/
-@media only screen and (max-width:688px){
-    nav{
-        flex-direction: column;
-    }
-    .nav_logo{
-        margin-left: 20px;
-    }
-    ul{
-        flex-direction: column-reverse;
-        margin: 0 auto;
-    }
-    .container{
-        width: 100%;
-        overflow: hidden;
-    }
-    .section_title{
-        text-align: center;
-    }
-    .players, .blogs, .courses{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .player, .blog{
-        flex-direction: column;
-    }
-    .course{
-        margin: 0 auto;
-    }
+@media only screen and (max-width: 688px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav_logo {
+    margin-left: 20px;
+  }
+  ul {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .section_title {
+    text-align: center;
+  }
+  .players,
+  .blogs,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player,
+  .blog {
+    flex-direction: column;
+  }
+  .course {
+    margin: 0 auto;
+  }
 }
-@media only screen and (min-width: 668px) and (max-width:992px){
-    .nav_logo{
-        margin-left: 20px;
-    }
-    ul{
-        margin-right: 50px;
-    }
-    .container{
-        width: 100%;
-        overflow: hidden;
-    }
-    .section_title{
-        text-align: center;
-    }
-    .players, .blogs{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .player, .blog{
-        flex-direction: column;
-    }
-    .courses{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .course{
-        margin: 0 auto;
-    }
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+  .nav_logo {
+    margin-left: 20px;
+  }
+  ul {
+    margin-right: 50px;
+  }
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .section_title {
+    text-align: center;
+  }
+  .players,
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player,
+  .blog {
+    flex-direction: column;
+  }
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .course {
+    margin: 0 auto;
+  }
 }
 /* responsive end*/

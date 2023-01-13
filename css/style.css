@@ -195,12 +195,15 @@ ul li a {
 }
 /* latest courses end */
 /* responsive start*/
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 666px) {
+  header{
+    width: 100%;
+  }
   nav {
     flex-direction: column;
   }
   .nav_logo {
-    margin-left: 20px;
+    padding-left: 20px;
   }
   ul {
     flex-direction: column-reverse;
@@ -208,9 +211,10 @@ ul li a {
   }
   .container {
     width: 100%;
-    overflow: hidden;
+    padding: 0;
   }
   .section_title {
+    margin-top: 15px;
     text-align: center;
   }
   .players,
@@ -226,7 +230,7 @@ ul li a {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 668px) and (max-width: 992px) {
+@media only screen and (min-width: 667px) and (max-width: 992px) {
   .nav_logo {
     margin-left: 20px;
   }
@@ -235,7 +239,8 @@ ul li a {
   }
   .container {
     width: 100%;
-    overflow: hidden;
+    padding: 0;
+    /* overflow: hidden; */
   }
   .section_title {
     text-align: center;

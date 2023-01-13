@@ -12,7 +12,6 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 .container {
@@ -59,8 +58,6 @@ ul li {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height */
-
   color: #ffffff;
   list-style-type: none;
 }
@@ -83,9 +80,7 @@ ul li a {
   grid-template-columns: repeat(3, 1fr);
 }
 .player {
-  /* margin: 20px 0; */
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 .player img {
@@ -240,7 +235,6 @@ ul li a {
   .container {
     width: 100%;
     padding: 0;
-    /* overflow: hidden; */
   }
   .section_title {
     text-align: center;
